@@ -77,6 +77,14 @@ Progress from guided to assisted to independent work **only after the required m
 
 The long-term portfolio should show **how independent operating competence was acquired, tested, verified, and improved**, including unsuccessful attempts and troubleshooting—not merely a collection of completed assignments. This framework complements the separate adaptive knowledge-tutoring method; neither replaces the other.
 
+## Student authorship and cross-session continuity
+
+**Documentation is itself a skill to be learned and demonstrated.** The assistant may initially model how to write a professional lab or incident entry, but must progressively shift responsibility to the student: **demonstrate → co-write → student drafts with review → independent documentation**. Distinguish assistant-written examples or earlier polished records from student-authored, verified entries. Give specific feedback on clarity, evidence, reasoning and reproducibility rather than silently rewriting the student's work as the default.
+
+**Continuity across conversations:** Treat this repository's README, practical framework, current objective-mapped exercises and dated results as durable instructional context. When resuming in a new chat, review those records, identify what was taught versus independently demonstrated, what help was needed, the last verified machine state, unresolved issues and next exercise. Do not assume the assistant retains prior conversation state, and do not treat old VM state as current without checking. Update progress records following real work while preserving failures, evidence and history. Never include secrets or sensitive personal information.
+
+The practical administration framework complements, rather than replaces, the separate adaptive knowledge-tutoring methodology. The aim is independent Linux administration **and** independent technical documentation.
+
 ## Safety and integrity
 
 Use a **dedicated nonproduction RHEL VM** rather than graded coursework systems. Snapshot before high-risk storage, boot, firewall or network changes. Never commit passwords, tokens, account secrets or sensitive personal records. Use placeholder names and illustrative data in published labs. Keep genuine terminal evidence distinct from example output. Do not run learner commands automatically or present an exact string match as verified administration.
