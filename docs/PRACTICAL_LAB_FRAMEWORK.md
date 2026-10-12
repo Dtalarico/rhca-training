@@ -59,6 +59,24 @@ Avoid switching a learner to independent mode before the underlying mechanism ha
 - Final result: achieved, partial, failed, or unknown
 - Next varied/delayed retest and engineering lessons
 
+
+## Engineering competency evidence and learning progression
+
+A completed guided lab, a high quiz score, and an independently administered system are **different forms of evidence**. Record them honestly; do not infer independent mastery from task completion alone.
+
+For each practical ticket, record:
+
+- **Starting capability and prerequisites:** what concepts or atomic operations were already taught, and whether this is first exposure, practice, or retest.
+- **Assistance level:** Guided, Assisted, Independent, or Timed Exam-Style; note each substantive hint or supplied command without treating help as failure.
+- **Operator decisions:** the requested end state, initial observations, proposed steps, why each was selected, and any choice to execute discrete operations with verification between them.
+- **Authentic evidence:** commands actually run, relevant output, errors, corrections, final system state, and tests that demonstrate success or failure. Never manufacture results or present examples as executions.
+- **Competency status:** exposed, completed with assistance, completed independently, independently reproduced on a varied scenario, or not yet demonstrated. Include the date and environment, not just a percentage.
+- **Follow-up:** what remains uncertain and which changed-condition or delayed retest will establish retention and transfer.
+
+Progress from guided to assisted to independent work **only after the required mechanisms have been introduced and practiced**. Record insufficient instructional coverage separately from a failure to recall something already taught. Timed performance is an additional skill, not a substitute for untimed competence. Prefer one operation and verification at a time when learning or troubleshooting; teach combined commands only when their behavior and trade-offs are understood.
+
+The long-term portfolio should show **how independent operating competence was acquired, tested, verified, and improved**, including unsuccessful attempts and troubleshooting—not merely a collection of completed assignments. This framework complements the separate adaptive knowledge-tutoring method; neither replaces the other.
+
 ## Safety and integrity
 
 Use a **dedicated nonproduction RHEL VM** rather than graded coursework systems. Snapshot before high-risk storage, boot, firewall or network changes. Never commit passwords, tokens, account secrets or sensitive personal records. Use placeholder names and illustrative data in published labs. Keep genuine terminal evidence distinct from example output. Do not run learner commands automatically or present an exact string match as verified administration.
